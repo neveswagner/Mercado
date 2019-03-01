@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MerdadoWagner
+{
+    public class Mercado
+    {
+        public decimal Saldos = 0;
+        public decimal Vender = 3.50m;
+        public decimal Dinheiro;
+        public decimal Quanta;
+        public decimal Saldototal = 0;
+
+        public decimal Saldo(decimal SaldoCaixas)
+        {
+            Saldos = SaldoCaixas;
+
+            return SaldoCaixas;
+        }
+
+        public decimal Venda(decimal Vender)
+        {
+            Saldos = Saldos + Vender;
+
+            return Saldos;
+        }
+        public decimal din(decimal dimdim)
+        {
+            Dinheiro = dimdim;
+
+            return Dinheiro;
+        }
+
+        public decimal Quantaa(decimal quantass)
+        {
+            Quanta = quantass;
+
+
+            return Quanta;
+        }
+        public decimal total(decimal totalzao)
+        {
+            Saldos = totalzao + Saldos;
+
+            return totalzao;
+        }
+
+
+    }
+
+}
